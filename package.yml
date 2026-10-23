@@ -1,0 +1,76 @@
+package: cloud.lazycat.app.kana-dojo
+version: 0.1.20-4
+name: KanaDojo
+description: 日语假名与汉字练习道场：五十音图、假名/汉字/词汇练习与打字训练，带连击与成就统计。
+author: lingdojo
+license: AGPL-3.0
+homepage: https://github.com/lingdojo/kana-dojo
+min_os_version: 1.6.0
+support_mobile: true
+permissions:
+  required:
+    - net.internet
+locales:
+  zh-CN:
+    name: KanaDojo 日语假名道场
+    description: >-
+      日语假名与汉字的练习道场：五十音图随手查，假名、汉字、词汇、罗马字打字四类练习都带即时判分，连对会累积连击与成就，统计页记录每天的练习量。界面为上游自带的简体中文。
+    usage: |
+      KanaDojo 打开就能练，不需要注册账号，也没有后台管理。
+
+      怎么用：
+
+      1. 首页是五十音图，点任意假名听发音。
+      2. 顶部菜单进入「假名」「汉字」「词汇」「打字」等练习，选好要练的范围后直接开始作答，答完立刻看到对错与得分。
+      3. 连对会累积连击与成就，「统计」页看每天的练习量。
+
+      语言与数据：
+
+      - 界面跟随浏览器语言，中文环境下打开就是简体中文；也可以在「设置」里手动切换语言。
+      - 练习进度与设置保存在当前浏览器本地。换浏览器、清空浏览器数据或换设备，都会从零开始。
+      - 发音与音效是随应用内置的音频文件，不依赖外部音频服务。
+
+      说明：
+
+      - 本包是上游开源项目的容器化移植，界面文案全部来自上游自带的简体中文语言包，没有另行翻译或改版。
+  en-US:
+    name: KanaDojo
+    description: >-
+      A drill room for Japanese kana and kanji with instant scoring - kana
+      chart, kana/kanji/vocabulary drills and romaji typing practice, plus
+      combos, achievements and daily statistics.
+    usage: >
+      KanaDojo works as soon as it opens - no account, no admin console.
+
+
+      How to use:
+
+
+      1. The home page is the kana chart; tap any kana to hear it.
+
+      2. Use the top menu for the kana, kanji, vocabulary and typing drills,
+      pick a range and start answering to get instant right/wrong feedback and a
+      score.
+
+      3. Correct streaks build combos and achievements; the statistics page
+      shows your daily practice.
+
+
+      Language and data:
+
+
+      - The interface follows your browser language; you can also switch it
+      manually in settings.
+
+      - Progress and settings live in your browser's local storage. A different
+      browser, cleared site data or a different device starts from zero.
+
+      - Pronunciation and sound effects ship with the app; no external audio
+      service is used.
+
+
+      Notes:
+
+
+      - This is a containerised port of the upstream open-source project; all UI
+      text comes from the upstream Simplified Chinese and English locale files.
