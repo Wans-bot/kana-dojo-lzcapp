@@ -23,7 +23,7 @@ images:
     service: web
     source: registry.lazycat.cloud/wans/kanadojo-kd-v8-1019-1717
     channel: stable
-    tag_regex: '^[0-9a-f]{{16}}$'
+    tag_regex: '^[0-9a-f]{16}$'
     sort: created
     delivery:
       mode: lazycat
